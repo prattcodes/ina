@@ -1,0 +1,15 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@layer base {
+    @font-face {
+        font-family: 'Nunito Sans';
+        src: local('Nunito Sans'), url(./fonts/nunito-sans-v6-latin-regular.ttf) format('ttf');
+        }
+        @font-face {
+            font-family: 'Nunito Sans';
+            src: local('Nunito Sans'), url(./fonts/nunito-sans-v6-latin-regular.ttf) format('ttf');
+            }
+}
+
+@tailwind utilities;
